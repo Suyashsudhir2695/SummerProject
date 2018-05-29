@@ -50,6 +50,7 @@ public class SignIn extends AppCompatActivity {
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         dialog.dismiss();
                         User user = dataSnapshot.child(phone).getValue(User.class);
+                        user.setPhone(editPhone.getText().toString());
                         if (dataSnapshot.child(phone).exists()) {
                             if (user.getPassword().equals(pass)) {
                                 Common.currentUser = user;
