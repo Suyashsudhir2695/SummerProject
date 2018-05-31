@@ -92,7 +92,7 @@ public class Cart extends AppCompatActivity {
                 );
                 request.child(String.valueOf(System.currentTimeMillis())).setValue(requests);
                 new Database(getBaseContext()).emptyCart();
-                Toast.makeText(Cart.this, "Thank You for Shopping With Us. Your Oder Has Been Placed!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Cart.this, "Thank You for Shopping With Us. Your Oder Has Been Placed!", Toast.LENGTH_LONG).show();
                 finish();
             }
         });
