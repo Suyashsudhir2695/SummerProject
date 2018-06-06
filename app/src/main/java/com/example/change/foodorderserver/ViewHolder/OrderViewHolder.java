@@ -1,31 +1,29 @@
 package com.example.change.foodorderserver.ViewHolder;
 
-
-
 import android.support.v7.widget.RecyclerView;
 import android.view.ContextMenu;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.AdapterView;
 import android.widget.TextView;
-
 
 import com.example.change.foodorderserver.Common.Common;
 import com.example.change.foodorderserver.Interface.ItemClickListener;
 import com.example.change.foodorderserver.R;
 
-public class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnCreateContextMenuListener {
+public class OrderViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnCreateContextMenuListener {
 
-    public TextView textMenu;
-    public ImageView imageView;
+    public TextView txtOrderId, txtOrderStatus, txtOrderPhone, txtOrderAddress;
     private ItemClickListener itemClickListener;
 
-
-    public MenuViewHolder(View itemView) {
+    public OrderViewHolder(View itemView) {
         super(itemView);
-        textMenu = itemView.findViewById(R.id.menu_name);
-        imageView = itemView.findViewById(R.id.menu_image);
-        itemView.setOnCreateContextMenuListener(this);
+
+        txtOrderId = itemView.findViewById(R.id.text_order_id);
+        txtOrderAddress = itemView.findViewById(R.id.text_order_add);
+        txtOrderPhone = itemView.findViewById(R.id.text_order_phone);
+        txtOrderStatus = itemView.findViewById(R.id.text_order_status);
         itemView.setOnClickListener(this);
+        itemView.setOnCreateContextMenuListener(this);
     }
 
     public void setItemClickListener(ItemClickListener itemClickListener) {

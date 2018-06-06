@@ -199,6 +199,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "340520312443-v95jeg2mjgc6hhk5ev7emrtc9kgptoiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.change.foodorderserver",
+            "certificate_hash": "6f4cd559346d8c22f06d50112650e703a4d98ecd"
+          }
+        },
+        {
           "client_id": "340520312443-3nl8da9uulh1754a17e7p15m7qiusjae.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
