@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bgx"
+
     tools:context=".SignIn">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:orientation="vertical"
+        android:layout_margin="15dp"
 
-        >
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
 
         <com.rengwuxian.materialedittext.MaterialEditText
 
@@ -59,6 +60,37 @@
             android:shadowColor="@android:color/black"
             android:text="Sign In"
             android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/remember"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Remember Me"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                app:cbd_strokeColor="@android:color/white"
+
+                app:cbd_tickColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/txtPassForgot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="Forgot Your Password?"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
 
     </LinearLayout>
 

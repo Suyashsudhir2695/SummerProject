@@ -119,6 +119,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "340520312443-0vv5mjq3tfl6fgi0id1qc3qlkhjmv0qp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.change.foodorder",
+            "certificate_hash": "48523b8e1ef5f934532136c14dbd375c1ea4847c"
+          }
+        },
+        {
+          "client_id": "340520312443-dtchg2vp3lm3cs9jj0927rckut9mpvt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.change.foodorder",
+            "certificate_hash": "6f4cd559346d8c22f06d50112650e703a4d98ecd"
+          }
+        },
+        {
           "client_id": "340520312443-5832j23u9f82kek6bgj79c4lat02qnuu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -156,6 +172,70 @@
           "android_info": {
             "package_name": "com.example.change.foodorder",
             "certificate_hash": "fdc2d05b8ab340af2befe0c7dfa6386c841ecbbc"
+          }
+        },
+        {
+          "client_id": "340520312443-v4r5b3otcfmibjnn6cc8dasqrqopfare.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "340520312443-v4r5b3otcfmibjnn6cc8dasqrqopfare.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4jTPHRGcDP3x9H-eqjcrIzFij6jRvRlQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340520312443-v4r5b3otcfmibjnn6cc8dasqrqopfare.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340520312443:android:ede21f4dd8eac35a",
+        "android_client_info": {
+          "package_name": "com.example.change.foodorderserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340520312443-so6vdr71s354p9b5ta99pst1drqg67f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.change.foodorderserver",
+            "certificate_hash": "48523b8e1ef5f934532136c14dbd375c1ea4847c"
+          }
+        },
+        {
+          "client_id": "340520312443-v95jeg2mjgc6hhk5ev7emrtc9kgptoiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.change.foodorderserver",
+            "certificate_hash": "6f4cd559346d8c22f06d50112650e703a4d98ecd"
+          }
+        },
+        {
+          "client_id": "340520312443-3nl8da9uulh1754a17e7p15m7qiusjae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.change.foodorderserver",
+            "certificate_hash": "f1a6267a7fcb59f4e880726813290ac822e2a6ea"
           }
         },
         {

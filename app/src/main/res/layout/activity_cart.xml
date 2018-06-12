@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bgx"
     android:padding="16dp"
     tools:context=".Cart">
 
@@ -63,7 +63,7 @@
                 android:elevation="5dp"
                 android:shadowColor="@android:color/black"
                 android:stateListAnimator="@null"
-                android:text="Place"
+                android:text="Place Order"
                 android:textColor="@android:color/white"
                 android:translationZ="5dp" />
         </RelativeLayout>

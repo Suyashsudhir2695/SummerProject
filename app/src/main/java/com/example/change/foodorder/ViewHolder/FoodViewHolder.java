@@ -10,8 +10,8 @@ import com.example.change.foodorder.R;
 
 public class FoodViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-    public TextView foodName;
-    public ImageView foodImage;
+    public TextView foodName,foodPrice;
+    public ImageView foodImage,foodFav,foodAddToCart;
 
     private ItemClickListener itemClickListener;
 
@@ -19,6 +19,10 @@ public class FoodViewHolder extends RecyclerView.ViewHolder implements View.OnCl
         super(itemView);
         foodName = itemView.findViewById(R.id.food_name);
         foodImage = itemView.findViewById(R.id.food_image);
+        foodFav = itemView.findViewById(R.id.favFoodList);
+        foodAddToCart = itemView.findViewById(R.id.addToCartFoodList);
+        foodPrice = itemView.findViewById(R.id.food_pr);
+
         itemView.setOnClickListener(this);
     }
 

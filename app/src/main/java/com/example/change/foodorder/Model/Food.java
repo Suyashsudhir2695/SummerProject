@@ -1,70 +1,70 @@
 package com.example.change.foodorder.Model;
 
 public class Food {
-    private String Name;
-    private String Image;
-    private String Description;
-    private String Discount;
-    private String MenuId;
-    private String Price;
+    private String name;
+    private String image;
+    private String description;
+    private String discount;
+    private String menuId;
+    private String price;
 
     public Food() {
     }
 
     public Food(String name, String image, String description, String discount, String menuId, String price) {
-        Name = name;
-        Image = image;
-        Description = description;
-        Discount = discount;
-        MenuId = menuId;
-        Price = price;
+        this.name = name;
+        this.image = image;
+        this.description = description;
+        this.discount = discount;
+        this.menuId = menuId;
+        this.price = price;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getImage() {
-        return Image;
+        return image;
     }
 
     public void setImage(String image) {
-        Image = image;
+        this.image = image;
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public void setDescription(String description) {
-        Description = description;
+        this.description = description;
     }
 
     public String getDiscount() {
-        return Discount;
+        return discount;
     }
 
     public void setDiscount(String discount) {
-        Discount = discount;
+        this.discount = discount;
     }
 
     public String getMenuId() {
-        return MenuId;
+        return menuId;
     }
 
     public void setMenuId(String menuId) {
-        MenuId = menuId;
+        this.menuId = menuId;
     }
 
     public String getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(String price) {
-        Price = price;
+        this.price = price;
     }
 }
