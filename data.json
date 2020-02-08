@@ -1,0 +1,22 @@
+{
+    "pipelines" : [
+        {
+            "name" : "GWAS",
+            "steps" : [
+                "file_preprocessing",
+                "plink",
+                "compPCA",
+                "darwPCA"
+            ]
+        },
+        {
+            "name" : "phewas",
+            "steps" : [
+                "file_preprocessing",
+                "plink",
+                "compPCA",
+                "darwPCA"
+            ]
+        }
+    ]
+}
